@@ -12,3 +12,32 @@
 
 # Modify default IP
 #sed -i 's/192.168.1.1/192.168.50.5/g' package/base-files/files/bin/config_generate
+
+#修改Banner
+sed -i 's/%D %V, %C/%D %V, %C, Build by CheneyNetwork/g' package/base-files/files/etc/banner
+
+# 网易云音乐完整版
+git clone https://github.com/project-openwrt/luci-app-unblockneteasemusic.git package/cheneysource/luci-app-unblockneteasemusic
+
+# OpenClash
+git clone https://github.com/vernesong/OpenClash.git package/cheneysource/OpenClash
+
+# Rosy 主题
+git clone https://github.com/rosywrt/luci-theme-rosy.git package/cheneysource/luci-theme-rosy
+
+# SmartDNS
+# git clone https://github.com/RealKiro/Luci-SmartDNS.git package/cheneysource/Luci-SmartDNS
+
+# KPR plus+
+git clone https://github.com/project-openwrt/luci-app-koolproxyR.git package/cheneysource/luci-app-koolproxyR
+
+# Docker
+# git clone  https://github.com/lisaac/luci-lib-docker.git package/kleinersource/luci-lib-docker
+# git clone  https://github.com/lisaac/luci-app-dockerman.git package/kleinersource/luci-app-dockerman        
+
+# SSRP
+git clone -b master https://github.com/fw876/helloworld package/ssrplus
+
+# 刷新&安装源
+./scripts/feeds update -a
+./scripts/feeds install -a
