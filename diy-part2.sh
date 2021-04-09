@@ -22,9 +22,6 @@ git clone https://github.com/project-openwrt/luci-app-unblockneteasemusic.git pa
 # OpenClash
 git clone https://github.com/vernesong/OpenClash.git package/cheneysource/OpenClash
 
-# Rosy 主题
-git clone https://github.com/rosywrt/luci-theme-rosy.git package/cheneysource/luci-theme-rosy
-
 # SmartDNS
 # git clone https://github.com/RealKiro/Luci-SmartDNS.git package/cheneysource/Luci-SmartDNS
 
@@ -37,6 +34,12 @@ git clone https://github.com/project-openwrt/luci-app-koolproxyR.git package/che
 
 # SSRP
 git clone -b master https://github.com/fw876/helloworld package/ssrplus
+
+#常用插件包
+git clone https://github.com/kenzok8/openwrt-packages.git
+
+#passwall依赖包
+git clone https://github.com/kenzok8/small.git
 
 # 刷新&安装源
 ./scripts/feeds update -a
