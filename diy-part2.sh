@@ -39,7 +39,7 @@ git clone -b master https://github.com/fw876/helloworld package/ssrplus
 #git clone https://github.com/kenzok8/openwrt-packages.git
 
 # passwall
-git chone https://github.com/kenzok8/openwrt-packages/tree/master/luci-app-passwall.git package/cheneysource/luci-app-passwal
+git clone https://github.com/kenzok8/openwrt-packages/tree/master/luci-app-passwall.git package/cheneysource/luci-app-passwal
 
 #passwall依赖包
 git clone https://github.com/kenzok8/small.git package/cheneysource/luci-app-small
