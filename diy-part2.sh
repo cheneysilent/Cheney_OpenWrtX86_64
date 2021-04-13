@@ -36,16 +36,10 @@ git clone https://github.com/project-openwrt/luci-app-koolproxyR.git package/che
 git clone -b master https://github.com/fw876/helloworld package/ssrplus
 
 # 常用插件包
-#git clone https://github.com/kenzok8/openwrt-packages.git
-
-# passwall
-git clone https://github.com/kenzok8/openwrt-packages/tree/master/luci-app-passwall.git package/cheneysource/luci-app-passwal
+git clone https://github.com/kenzok8/openwrt-packages.git packages/openwrtpackages
 
 #passwall依赖包
 git clone https://github.com/kenzok8/small.git package/cheneysource/luci-app-small
-
-# 系统高级配置
-git clone https://github.com/kenzok8/openwrt-packages/tree/master/luci-app-advancedsetting.git package/cheneysource/luci-app-advancedsetting
 
 # 刷新&安装源
 ./scripts/feeds update -a
