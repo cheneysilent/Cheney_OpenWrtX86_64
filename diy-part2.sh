@@ -33,10 +33,10 @@ git clone https://github.com/project-openwrt/luci-app-koolproxyR.git package/che
 # git clone  https://github.com/lisaac/luci-app-dockerman.git package/kleinersource/luci-app-dockerman        
 
 # SSRP
-git clone https://github.com/fw876/helloworld package/ssrplus
+git clone https://github.com/fw876/helloworld package/cheneysource/ssrplus
 
 # 常用插件包
-git clone https://github.com/kenzok8/small-package package/small-package
+git clone https://github.com/kenzok8/small-package package/cheneysource/small-package
 
 #passwall依赖包
 git clone https://github.com/kenzok8/small.git package/cheneysource/small
