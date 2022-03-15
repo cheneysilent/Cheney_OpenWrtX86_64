@@ -17,16 +17,16 @@
 sed -i 's/%D %V, %C/%D %V, %C, Build by CheneyNetwork/g' package/base-files/files/etc/banner
 
 # 网易云音乐完整版
-git clone https://github.com/project-openwrt/luci-app-unblockneteasemusic.git package/cheneysource/luci-app-unblockneteasemusic
+#git clone https://github.com/project-openwrt/luci-app-unblockneteasemusic.git package/cheneysource/luci-app-unblockneteasemusic
 
 # OpenClash
-git clone https://github.com/vernesong/OpenClash.git package/cheneysource/OpenClash
+#git clone https://github.com/vernesong/OpenClash.git package/cheneysource/OpenClash
 
 # SmartDNS
 # git clone https://github.com/RealKiro/Luci-SmartDNS.git package/cheneysource/Luci-SmartDNS
 
 # KPR plus+
-git clone https://github.com/project-openwrt/luci-app-koolproxyR.git package/cheneysource/luci-app-koolproxyR
+#git clone https://github.com/project-openwrt/luci-app-koolproxyR.git package/cheneysource/luci-app-koolproxyR
 
 # Docker
 # git clone  https://github.com/lisaac/luci-lib-docker.git package/kleinersource/luci-lib-docker
